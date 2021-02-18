@@ -1,0 +1,147 @@
+/* ================================= 
+      Sign UP FORM
+==================================== */
+
+
+body {
+  background: tomato;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+  form {
+    background-color:white;
+  	background-repeat: no-repeat;
+    width: 380px;
+    padding-top: 1px;
+    margin: 15px auto;
+    border-radius: 8px;
+    border-color:darkgray;
+    border-style: solid;
+    border-width: thin;
+  }
+
+  header{
+    margin-top: 60px;
+  }
+  
+  .logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 580px;
+  }
+  
+  .logo:hover {
+    color:black;
+  }
+  
+  .header-signin {
+    font-weight: 700;
+    font-size: 20px;
+	  padding-bottom: 2px;
+	  color:black;
+	  text-align: left;
+    margin-left: 20px;
+  }
+  
+  .optional {
+    display: inline-block;
+    background:white;
+    margin-left: 23px;
+  }
+  
+  #space {
+    padding: 1em;
+  }
+  
+  .footer {
+    background:#E6E6E6;
+    height: 50px;
+    border-radius: 0 0 4px 4px;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-top: 3px;
+    text-align:center;
+  }
+  
+  .footer span {
+    font-weight: bold;
+  }
+  
+  .footerhover {
+    text-decoration: none;
+    color:#F54327;
+  }
+  
+  .footerhover:hover {
+    color:black;
+  }
+  
+  
+  
+  /* Fields and Button */
+  
+  .button {
+    width: 90%;
+    height: 32px;
+    margin: 5px 0px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: 15px 17px;
+    text-indent: 2%;
+    font-family: inherit;
+    font-size: 12px;
+    color: #737373;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 20px;
+  }
+  
+
+
+  .label {
+    width: 30%;
+    height: 15px;
+    margin: 0px 0px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: 15px 17px;
+    text-indent: 2%;
+    font-family: inherit;
+    font-size: 12px;
+    position: relative;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+ 
+  #submit {
+    background-color: #F54327;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 8px;
+    text-indent: 0;
+    cursor: pointer;
+  	transition: background .3s ease-in-out;
+	
+  }
+  
+  #submit:hover {
+    background-color: #FF7145;
+  }
+
+  
+  /* HORIZONTAL LINE */
+	  .fade_rule {
+        height: 1px;
+        background-color:darkgray;
+        width: 340PX;
+        margin: 0 auto;
+    }
