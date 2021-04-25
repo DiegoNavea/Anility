@@ -58,4 +58,14 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    /**
+     * This function will define the relationship between the file and the user
+     *
+     * @var array
+     */
+    public function files()
+    {
+      return $this->hasMany(File::class);
+    }
 }
